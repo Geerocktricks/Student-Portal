@@ -1,0 +1,39 @@
+body, html{
+    background-color: aliceblue;
+    background-image: url(https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.adpara, .stuform, .red, .adwhite{
+    display: none;
+}
+.adform, .stuform{
+    padding: 30px;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .8);
+}
+button{
+    float: left;
+}
+.adpara{
+    top: 50%;
+}
+.admin{
+    color: aliceblue;
+    cursor: pointer;
+}
+.student{
+    color: aliceblue;
+    cursor: pointer;
+}
+.adminclass{
+    color: rgb(83, 182, 83);
+}
