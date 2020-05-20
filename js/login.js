@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $('.student').click(function(){
+        $('.adform').hide();
+        $('.adpara').show();
+        $('.stuform').show();
+        $('.stupara').hide();
+        $('.white').hide();
+        $('.red').show();
+        $('.adred').hide();
+        $('.adwhite').show();
+    })
+    $('.admin').click(function(){
+        $('.adform').show();
+        $('.adpara').hide();
+        $('.stuform').hide();
+        $('.stupara').show();
+        $('.white').show();
+        $('.red').hide();
+        $('.adred').show();
+        $('.adwhite').hide();
+    })
+})
